@@ -169,9 +169,13 @@
     margin: 20px 2.5%;
     color: white;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
-    font-size: 3.3vh;
+    font-size: 3.3vh;    
+    }
+    .middle-content .boxes .box a{
+      color: white;
+      text-decoration: none;
     }
     #box1{
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, .9) ), url('pics/black-acoustic-cutaway-guitar-on-tree-225230.jpg');
@@ -203,14 +207,15 @@
     #box10{
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .5) ), url('pics/photo-of-silhoutte-people-hands-2078008.jpg');
     }
+
     
     
     .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
-    margin-left: 350px;
-    margin-right: 350px;
+    margin-left: 200px;
+    margin-right: 200px;
     margin-top: 20px; 
     }
     
@@ -221,17 +226,21 @@
     .bottom-content .text-container:last-child {
     padding-right: 0;
     }
+    .bottom-content .text-container h2{
+      text-align: center;
+    }
     
     footer {
-    width: 55%;
+    width: %;
     background: black;
-    margin-left: 335px;
-    margin-right: 350px;
+    margin-left: px;
+    margin-right: px;
     }
     footer nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
+    text-align: center;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
@@ -240,6 +249,8 @@
     footer nav a {
     color: white;
     text-decoration: none;
+    margin-left: 18%;
+    
     }
     .prt {
     display: flex;
