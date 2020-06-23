@@ -1,0 +1,263 @@
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #0d3b66 ;
+    color: white;
+    padding: 26px;
+    font-size: 20px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fbd1a2;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #f79256;
+    color: white;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #f79256;}
+  
+  .menu{
+    display: flex;
+    justify-content: space-around;
+    margin-top: %;
+    background-color: #0d3b66;
+    padding: 2%
+  }
+  header{
+    display: flex;
+    background-color: #0d3b66;  
+  }
+  .title{
+    width: 100%;
+    margin-left: 5%;
+  }
+  .title h1{
+     font-size: 400%;
+    color: white;
+    
+  }
+  .signin{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10vh;
+      
+  }
+  
+  
+  .loginbttn a{
+    margin-left: 4vh;
+    text-decoration: none;
+    padding: 10% 20% 10% 20%;
+    color: white;
+    background-color:#00b2ca;
+    border-radius: 15%
+  }
+  .loginbttn a:hover{
+    background-color: #fbd1a2;
+    color: #485665;
+  }
+  
+  .forgot{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0% 0% 0% 0%;
+    background-color: #0d3b66;
+  }
+  .forgot a{
+    margin: -4% 4% 1% 2%;
+    color: white;
+    text-decoration: none;
+    //background-color: #00b2ca;
+    padding: 
+  }
+  
+  .first-img img{
+    width: 100%;
+    height: auto;
+    border: 2px solid red
+  }
+  .body-info{
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, .9) ), url('https://pixabay.com/get/57e9d0444e57ad14f6da8c7dda35367b1c3dd6ec5157794a_1280.jpg');
+    width: 100%;
+    height: auto;
+    background-size: 100% auto;
+    line-height: 200%;
+    background-repeat: no-repeat;
+    margin-top: -2%;
+  }
+   .body-info h2{
+    text-align: center;
+    margin: 2% 30% 0% 30%;
+     color: white;
+     
+  }
+  
+  .srchbx{
+    display:flex;
+    justify-content: center;
+    margin-top: 5%; 
+    
+  }
+  .srchbx input{
+    width: 50%;
+    padding: 1%;
+    margin-bottom: 2%;
+    font-size: 25px;
+    
+  }
+  
+  #button-holder{
+    margin-left: -5%;
+    margin-top: .3%
+  }
+  .middle-content {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    background-color: #0d3b66;
+    margin-top: -62px; 
+    }
+    
+    .middle-content h2 {
+    padding: 12% 0% 0% 0%;
+    margin-bottom: 10%;
+    text-align: center;
+    color: white;
+    font-size: 10vh;
+    }
+    
+    .middle-content .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    }
+    
+    .middle-content .boxes .box {
+    width: 35%;
+    height: 300px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.3vh;    
+    }
+    .middle-content .boxes .box a{
+      color: white;
+      text-decoration: none;
+    }
+    #box1{
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, .9) ), url('pics/black-acoustic-cutaway-guitar-on-tree-225230.jpg');
+    }
+    #box2{
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, .9) ), url('pics/man-changing-a-car-tire-3806249.jpg');
+    }
+    #box3{
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, .9) ), url('pics/women-having-exercise-using-dumbbells-903171.jpg');
+    }
+    #box4{
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, .9) ), url('pics/baking-cheese-cooking-crust-315755.jpg');
+    }
+    #box5{
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, .9) ), url('pics/teal-fujifilm-instax-mini-camera-near-white-ceramic-mug-1051073.jpg');
+    }
+    #box6{
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, .9) ), url('pics/white-toilet-paper-roll-on-woven-basket-3958196.jpg');
+    }
+    #box7{
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, .9) ), url('pics/orange-tabby-cat-beside-fawn-short-coated-puppy-46024.jpg');
+    }
+    #box8{
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, .9) ), url('pics/blue-margarita-with-lemon-2480828.jpg');
+    }
+    #box9{
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, .9) ), url('pics/appliance-carpet-chores-device-38325.jpg');
+    }
+    #box10{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .5) ), url('pics/photo-of-silhoutte-people-hands-2078008.jpg');
+    }
+
+    
+    
+    .bottom-content {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px; 
+    }
+    
+    .bottom-content .text-container {
+    padding-right: 4%;
+    }
+    
+    .bottom-content .text-container:last-child {
+    padding-right: 0;
+    }
+    .bottom-content .text-container h2{
+      text-align: center;
+    }
+    
+    footer {
+    width: %;
+    background: black;
+    margin-left: px;
+    margin-right: px;
+    }
+    footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+    }
+    
+    footer nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 18%;
+    
+    }
+    .prt {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 370px;
+    margin-bottom: 20px;
+    margin-right: 350px;
+    margin-top: 20px;
+    padding: 20px; 
+    }
