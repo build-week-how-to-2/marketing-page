@@ -1,6 +1,5 @@
 
 
-/* Dropdown Button */
 .dropbtn {
     background-color: #0d3b66 ;
     color: white;
@@ -8,14 +7,14 @@
     font-size: 20px;
     border: none;
   }
-  
-  /* The container <div> - needed to position the dropdown content */
+  .dropbtn a{
+    text-decoration: none;
+    color: white;
+  }
   .dropdown {
     position: relative;
     display: inline-block;
   }
-  
-  /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
     display: none;
     position: absolute;
@@ -24,91 +23,98 @@
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
-  
-  /* Links inside the dropdown */
   .dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
   }
-  
-  /* Change color of dropdown links on hover */
   .dropdown-content a:hover {
     background-color: #f79256;
     color: white;
   }
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
-  
-  /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: #f79256;}
-  
-  .menu{
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown:hover .dropbtn {
+    background-color: #f79256;
+  }
+   .menu{
     display: flex;
     justify-content: space-around;
-    margin-top: %;
     background-color: #0d3b66;
-    padding: 2%
+    padding: 2%;
   }
   header{
     display: flex;
     background-color: #0d3b66;  
+    width: 100%;
   }
   .title{
-    width: 100%;
-    margin-left: 5%;
+    width: 250vh;
+    margin-left: 2%;
+    height: 10%;
   }
   .title h1{
      font-size: 400%;
     color: white;
-    
+
   }
-  .signin{
+  .login{
     display: flex;
+    align-items: center;
+    justify-content: flex-end;
     width: 100%;
+  }
+  .loginbttn{
+    display: flex;
+    width: 20%;
+    height: 10%;
     justify-content: flex-end;
     align-items: center;
-    padding: 10vh;
-      
+    padding: 5vh;      
   }
   
   
   .loginbttn a{
-    margin-left: 4vh;
+    padding: 3vh;
+    width: 15vh;
     text-decoration: none;
-    padding: 10% 20% 10% 20%;
+    text-align: center;
     color: white;
     background-color:#00b2ca;
-    border-radius: 15%
+    border-radius: 15%;
+    font-size: 20px
   }
+
   .loginbttn a:hover{
     background-color: #fbd1a2;
     color: #485665;
   }
-  
-  .forgot{
+  .signup{
     display: flex;
+    width: 20%;
+    height: 10%;
     justify-content: flex-end;
-    margin: 0% 0% 0% 0%;
-    background-color: #0d3b66;
+    align-items: center;
+    padding: 5vh;
   }
-  .forgot a{
-    margin: -4% 4% 1% 2%;
-    color: white;
+  .signup a{
+    padding: 3vh;
+    width: 15vh;
     text-decoration: none;
-    //background-color: #00b2ca;
-    padding: 
+    text-align: center;
+    color: white;
+    background-color:#00b2ca;
+    border-radius: 15%;
+    font-size: 20px
   }
-  
-  .first-img img{
-    width: 100%;
-    height: auto;
-    border: 2px solid red
+  .signup a:hover{
+    background-color: #fbd1a2;
+    color: #485665;
   }
   .body-info{
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, .9) ), url('https://pixabay.com/get/57e9d0444e57ad14f6da8c7dda35367b1c3dd6ec5157794a_1280.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, .9) ), url('pics/tool-1957451_1280.jpg');
     width: 100%;
     height: auto;
     background-size: 100% auto;
@@ -231,33 +237,23 @@
     }
     
     footer {
-    width: %;
-    background: black;
+    width: 100%;
+    background: #0d3b66;
     margin-left: px;
     margin-right: px;
     }
     footer nav {
-    width: 60%;
+    width: 97%;
     display: flex;
     justify-content: space-between;
     text-align: center;
     align-items: center;
-    padding: 20px 2%;
+    padding: 20px;
     font-size: 14px;
     }
     
     footer nav a {
     color: white;
     text-decoration: none;
-    margin-left: 18%;
-    
-    }
-    .prt {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 370px;
-    margin-bottom: 20px;
-    margin-right: 350px;
-    margin-top: 20px;
-    padding: 20px; 
+    width: 10%;
     }
