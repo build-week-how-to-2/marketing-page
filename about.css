@@ -1,0 +1,230 @@
+*{
+    background-color: #0d3b66;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    margin: 2% 0% 5% 0%;
+    }
+    .title{
+        width: 100%;
+    }
+    .title h1{
+        color: white;
+        font-size: 400%;
+    }
+    .menu {
+    width: 100%;
+    height: 2%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 12vh;
+    
+    }
+    .menu a{
+    color: white;
+    text-decoration: none;
+    padding: 2vh
+    }
+    .menu a:hover{
+        background-color: coral;
+    }
+    .head-sec nav a{
+    text-align: center
+    }
+    .first-img{
+        text-align: center;
+        max-width: 100%; 
+        height: 80vh;
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .2) ), url('pics/hands-1939895_640.png');
+        background-position: 50% 60%;
+        background-size: 60% 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        }
+    .first-img h3{
+        color:white;
+        font-size: 40px;
+        text-align: center;
+        padding-bottom: 4%
+    }
+    
+    p {
+    line-height: 1.4;
+    }
+    
+footer {
+    width: 100%;
+
+    }
+    footer nav {
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+ 
+    }
+    
+    footer nav a {
+    color: white;
+    text-decoration: none;
+    }
+    .prt {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 370px;
+    margin-bottom: 20px;
+    margin-right: 350px;
+    margin-top: 20px;
+    padding: 20px; 
+    }
+    .text-container2 a{
+    margin-top: 5%;
+    padding: 4%;
+    border-radius: 15%;
+    text-align: center;
+    color: rgb(236, 236, 236);
+    text-decoration: none;
+    float: left;
+
+    background-color: coral;
+    }
+    .text-container2 h2{
+        font-size: 2.5vh;
+        color: white;
+    }
+    .text-container2 a:hover{
+    background-color: rgb(219, 104, 63);
+    color: white;
+    }
+    .text-container2{
+    border-bottom: 1px dashed white;
+    width: 48%;
+    padding: 0% 1%;
+    padding-bottom: 20px; 
+    margin-bottom: 20px;
+
+    
+    }
+    .text-container2 p{
+        color: white;
+    }
+    .prt2 {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px dashed white;
+    margin-left: 20%;
+    margin-bottom: 20px;
+    margin-right: 20%;
+    margin-top: 20px;
+    padding-bottom: 20px; 
+    }
+    .prt2 p, h2{
+        color: white;
+    }
+    .top-content2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    }
+    .top-content2 .text-container2 {
+    width: 48%;
+    padding: 0 .6%;
+    padding-bottom: 10px; 
+    margin-bottom: 20px;
+    }
+    .text-container2 img{
+    width: 100%;
+    
+    } 
+    .proLead{
+        margin: 0% 0% 0% %
+    }
+    .proLead h4{
+        font-size: 30px;
+        color: white;
+        text-align: center;
+    }
+    .proLead p{
+        color: white;
+        text-align: center;
+    }
+    .proLead img{
+        width: 80%;
+        margin-left: 10%;
+    }
+    @media(max-width: 840px){
+        .text-container2 h2{
+          font-size: 17px;
+        }
+    }
+
+@media(max-width: 800px){
+    body{
+     margin: auto;
+     
+    }
+    .first-img {
+        background-size: 100% 90%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .prt2{
+        width: 100%;
+        height: auto;
+        margin-left: 0%;
+    }
+    .prt2 h2, p{
+        text-align: center;
+
+        width: 100%
+    }
+    .text-container2{
+        width: 100%;
+    }
+    .text-container2 p{
+        text-align: left;
+    }
+    .top-content2{
+        width: 99.3%;
+        margin: 0% 0%
+    }
+    .title{
+
+        width: 100%;
+    }
+    .menu{
+
+        width: 100%;
+        margin-top: -1%
+    }
+    .header{
+
+        width: 99.3%;
+        display: flex;
+        flex-flow: wrap ;
+
+    }
+    .title{
+
+        width: 100%;
+    }
+    .menu{
+
+        width: 100%;
+        margin-top: -1%
+    }
+    .header{
+
+        width: 99.3%;
+        display: flex;
+        flex-flow: wrap ;
+    }
+
+}
